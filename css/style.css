@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+   
+
+}
+.main{
+    background-color: aqua;
+    border: 2px solid red;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.min{
+  position: absolute;
+}
+.hour{
+    position: absolute;
+}
+.playing{
+    transform: rotate(45deg);
+}
+.sec{
+    position: absolute;
+}
+.hand{
+    width:93px;
+    height: 4px;
+    background-color: black;
+
+    transform-origin: right;
+
+    
+}

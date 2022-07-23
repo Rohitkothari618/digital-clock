@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(../img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65vh;
+    color: white;
+    position: relative;
+}
+.navbar{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 8px 0px ;
+    background:radial-gradient(blue green);
+  
+    height: 40px;
+    box-shadow: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 50px;
+    margin: 40px;
+
+    
+}
+.container li{
+    list-style: none;
+    margin: 7px ;
+    font-size: larger;
+    cursor: pointer;
+}
+.main{
+    border: 2px solid #b0b0b0;
+    height: 40vh;
+    width: 50vw;
+    margin:60px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/g.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.2s ease-in-out;
+   
+}
+
+.sec{
+    width: 60px;
+    height: 80px;
+text-align: center;
+/* border: 2px solid red; */
+margin: 0px ;
+font-size: xxx-large;
+
+
+}
+.min{
+    width: 60px;
+    height: 80px;
+    text-align: center;
+    /* border: 2px solid red; */
+    margin: 20px 19px ;
+    font-size: xxx-large;
+}
+
+
+.hour{
+    font-size: xxx-large;
+    width: 60px;
+    height: 80px;
+    text-align: center;
+    /* border: 2px solid red; */
+    margin: 20px ;
+}
